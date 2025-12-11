@@ -6,7 +6,7 @@ import React from 'react'
 const Nav = () => {
    const pathName =  usePathname()
   return (
-    <div className='w-full h-20 bg-white  flex justify-between items-center px-5'>
+    <div className='w-full h-20 bg-white  flex justify-between items-center px-5 fixed top-0'>
         <div>🌍 Travel Guide</div>
         <div>
             <ul className='flex justify-between items-center gap-5'>
