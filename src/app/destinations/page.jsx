@@ -7,13 +7,14 @@ const page = () => {
       <div className=' font-bold  text-2xl'>
         Choose your Destinations
       </div>
-      <div>
+      <div className=' flex  flex-col gap-4 '>
         {
-          destination.map((d, index) => {
-            <div key={index}>
+          destination.map((d, index) => (
+            <div
+             key={index} className=' w-[200px] h-[100px] font-bold text-2xl bg-white text-black flex  justify-center items-center rounded-2xl'>
               {d}
             </div>
-          })
+          ))
         }
       </div>
     </div>
