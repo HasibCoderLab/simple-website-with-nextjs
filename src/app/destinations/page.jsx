@@ -1,9 +1,9 @@
 import React from 'react'
 
 const page = () => {
-  const destination = ["Paris , Tokyo , NewWork"];
+  const destination = ["Paris" , "Tokyo" , "NewWork"];
   return (
-    <div className=' h-full flex justify-center items-center text-white '>
+    <div className=' h-full flex flex-col justify-center items-center gap-4 text-white  '>
       <div className=' font-bold  text-2xl'>
         Choose your Destinations
       </div>
