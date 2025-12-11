@@ -3,7 +3,7 @@ import { useRouter } from 'next/navigation';
 
 const Page = () => {
   const router = useRouter()
-  const destination = ["Paris", "Tokyo", "NewWork"];
+  const destination = ["Paris", "Tokyo", "NewYork"];
 
   return (
     <div className='h-full flex flex-col justify-center items-center gap-4 text-white'>
