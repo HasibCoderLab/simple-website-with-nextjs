@@ -6,8 +6,8 @@ function Page() {
   const { city } = useParams();
 
   return (
-    <div className="mt-10 text-red-700">
-      {city} is the beautiful city
+    <div className="mt-[100px] text-white">
+    Welcome to   {city} ! Discover amazing sights and culture here.
     </div>
   );
 }
