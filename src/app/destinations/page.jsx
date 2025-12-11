@@ -14,7 +14,7 @@ const Page = () => {
         {destination.map((d, index) => (
           <div
             key={index}
-            className='w-[200px] h-[100px] font-bold text-2xl bg-white text-black flex justify-center items-center rounded-2xl hover:opacity-75 transition-all'
+            className='w-[200px] h-[100px] cursor-pointer font-bold text-2xl bg-white text-black flex justify-center items-center rounded-2xl hover:opacity-75 transition-all'
             onClick={() => router.push(`/destinations/${d}`)}
           >
             {d}
